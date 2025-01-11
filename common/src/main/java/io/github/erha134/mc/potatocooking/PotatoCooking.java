@@ -1,6 +1,7 @@
 package io.github.erha134.mc.potatocooking;
 
 import dev.architectury.platform.Platform;
+import io.github.erha134.mc.potatocooking.item.PotatoCookingItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -12,5 +13,7 @@ public final class PotatoCooking {
 
     public static void init() {
         LOGGER.info("Mod {} loaded. Version: {}", MOD_ID, MOD_VERSION);
+
+        PotatoCookingItems.register();
     }
 }
