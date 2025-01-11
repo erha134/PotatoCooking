@@ -3,7 +3,7 @@ architectury {
 }
 
 loom {
-    accessWidenerPath = file("src/main/resources/examplemod.accesswidener")
+    accessWidenerPath = file("src/main/resources/potatocooking.accesswidener")
 }
 
 dependencies {
@@ -12,6 +12,9 @@ dependencies {
     modImplementation "net.fabricmc:fabric-loader:${rootProject.fabric_loader_version}"
     // Remove the next line if you don't want to depend on the API
     modImplementation "dev.architectury:architectury:${rootProject.architectury_version}"
+
+    // Spark Lib
+    modImplementation "com.github.erha134.SparkLib:sparklib-common:${rootProject.sparklib_version}"
 }
 
 processResources {
