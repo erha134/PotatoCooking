@@ -1,4 +1,4 @@
-package io.github.erha134.mc.potatocooking.client.screen;
+package io.github.erha134.mc.potatocooking.client.screen.machine;
 
 import com.mojang.blaze3d.systems.RenderSystem;
 import net.fabricmc.api.EnvType;

@@ -9,6 +9,8 @@ import io.github.erha134.mc.potatocooking.item.food.PotatoCookingFoodComponents;
 import io.github.erha134.mc.potatocooking.recipe.PotatoCookingRecipeSerializers;
 import io.github.erha134.mc.potatocooking.recipe.PotatoCookingRecipeTypes;
 import io.github.erha134.mc.potatocooking.screen.PotatoCookingScreenHandlerTypes;
+import io.github.erha134.mc.potatocooking.sound.PotatoCookingSoundEvents;
+import net.minecraft.util.Identifier;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -33,5 +35,11 @@ public final class PotatoCooking {
         PotatoCookingRecipeSerializers.register();
 
         PotatoCookingScreenHandlerTypes.register();
+
+        PotatoCookingSoundEvents.register();
+    }
+
+    public static Identifier id(String path) {
+        return new Identifier(MOD_ID, path);
     }
 }

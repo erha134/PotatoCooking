@@ -1,6 +1,7 @@
 package io.github.erha134.mc.potatocooking.client.screen;
 
 import dev.architectury.registry.menu.MenuRegistry;
+import io.github.erha134.mc.potatocooking.client.screen.machine.StoneMillScreen;
 import io.github.erha134.mc.potatocooking.screen.PotatoCookingScreenHandlerTypes;
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;

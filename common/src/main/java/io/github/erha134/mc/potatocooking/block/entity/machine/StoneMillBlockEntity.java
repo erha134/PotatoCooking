@@ -4,7 +4,7 @@ import io.github.erha134.mc.potatocooking.block.entity.GUIBlockEntity;
 import io.github.erha134.mc.potatocooking.block.entity.PotatoCookingBlockEntityTypes;
 import io.github.erha134.mc.potatocooking.recipe.PotatoCookingRecipeTypes;
 import io.github.erha134.mc.potatocooking.recipe.machine.StoneMillRecipe;
-import io.github.erha134.mc.potatocooking.screen.StoneMillScreenHandler;
+import io.github.erha134.mc.potatocooking.screen.machine.StoneMillScreenHandler;
 import net.minecraft.block.BlockState;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.player.PlayerInventory;

@@ -1,6 +1,7 @@
-package io.github.erha134.mc.potatocooking.screen;
+package io.github.erha134.mc.potatocooking.screen.machine;
 
 import io.github.erha134.mc.potatocooking.block.entity.machine.StoneMillBlockEntity;
+import io.github.erha134.mc.potatocooking.screen.PotatoCookingScreenHandlerTypes;
 import io.github.erha134.mc.potatocooking.screen.slot.OutputSlot;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.player.PlayerInventory;

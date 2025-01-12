@@ -3,6 +3,7 @@ package io.github.erha134.mc.potatocooking.screen;
 import dev.architectury.registry.registries.DeferredRegister;
 import dev.architectury.registry.registries.RegistrySupplier;
 import io.github.erha134.mc.potatocooking.PotatoCooking;
+import io.github.erha134.mc.potatocooking.screen.machine.StoneMillScreenHandler;
 import net.minecraft.registry.RegistryKeys;
 import net.minecraft.resource.featuretoggle.FeatureFlags;
 import net.minecraft.screen.ScreenHandlerType;

@@ -2,10 +2,12 @@ package io.github.erha134.mc.potatocooking.block.machine;
 
 import io.github.erha134.mc.potatocooking.block.GUIBlock;
 import io.github.erha134.mc.potatocooking.block.entity.machine.StoneMillBlockEntity;
+import io.github.erha134.mc.potatocooking.sound.PotatoCookingSoundEvents;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.entity.BlockEntity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.screen.NamedScreenHandlerFactory;
+import net.minecraft.sound.SoundCategory;
 import net.minecraft.util.ActionResult;
 import net.minecraft.util.Hand;
 import net.minecraft.util.hit.BlockHitResult;
@@ -33,6 +35,12 @@ public class StoneMillBlock extends GUIBlock {
                     player.openHandledScreen(factory);
                 }
             } else if (stoneMill.crush()) {
+                world.playSound(null,
+                        pos,
+                        PotatoCookingSoundEvents.STONE_MILL_CRUSH.get(),
+                        SoundCategory.BLOCKS,
+                        1.0f,
+                        1.0f);
                 player.addExhaustion(0.5f);
             }
         }

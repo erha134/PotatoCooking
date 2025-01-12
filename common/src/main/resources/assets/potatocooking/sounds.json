@@ -1,0 +1,10 @@
+{
+  "block.potatocooking.stone_mill.crush": {
+    "subtitle": "subtitles.potatocooking.stone_mill_crush",
+    "sounds": [
+      "block/stone_mill_crush_1",
+      "block/stone_mill_crush_2",
+      "block/stone_mill_crush_3"
+    ]
+  }
+}
