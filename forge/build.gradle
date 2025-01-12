@@ -56,7 +56,7 @@ dependencies {
     // implementation(include("io.github.llamalad7:mixinextras-forge:${rootProject.mixinextras_version}"))
 
     // Spark Lib
-    modImplementation "com.github.erha134.SparkLib:sparklib-forge:${rootProject.sparklib_version}"
+    modApi "com.github.erha134.SparkLib:sparklib-forge:${rootProject.sparklib_version}"
     include "com.github.erha134.SparkLib:sparklib-forge:${rootProject.sparklib_version}"
 }
 

@@ -33,7 +33,7 @@ dependencies {
     shadowCommon(project(path: ":common", configuration: "transformProductionFabric")) { transitive false }
 
     // Spark Lib
-    modImplementation "com.github.erha134.SparkLib:sparklib-fabric:${rootProject.sparklib_version}"
+    modApi "com.github.erha134.SparkLib:sparklib-fabric:${rootProject.sparklib_version}"
     include "com.github.erha134.SparkLib:sparklib-fabric:${rootProject.sparklib_version}"
 }
 

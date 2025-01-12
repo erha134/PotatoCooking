@@ -14,7 +14,7 @@ dependencies {
     modImplementation "dev.architectury:architectury:${rootProject.architectury_version}"
 
     // Spark Lib
-    modImplementation "com.github.erha134.SparkLib:sparklib-common:${rootProject.sparklib_version}"
+    modApi "com.github.erha134.SparkLib:sparklib-common:${rootProject.sparklib_version}"
 }
 
 processResources {
