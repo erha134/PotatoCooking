@@ -23,6 +23,9 @@
     ],
     "client": [
       "io.github.erha134.mc.potatocooking.client.fabric.PotatoCookingClientFabric"
+    ],
+    "fabric-datagen": [
+      "io.github.erha134.mc.potatocooking.data.fabric.PotatoCookingDataGenerationFabric"
     ]
   },
   "mixins": [

@@ -2,7 +2,8 @@ package io.github.erha134.mc.potatocooking.screen.machine;
 
 import io.github.erha134.mc.potatocooking.block.entity.machine.StoneMillBlockEntity;
 import io.github.erha134.mc.potatocooking.screen.PotatoCookingScreenHandlerTypes;
-import io.github.erha134.mc.potatocooking.screen.slot.OutputSlot;
+import io.github.erha134.mc.sparklib.screen.ScreenHandlerUtils;
+import io.github.erha134.mc.sparklib.screen.slot.OutputSlot;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.player.PlayerInventory;
 import net.minecraft.inventory.Inventory;
@@ -27,15 +28,7 @@ public class StoneMillScreenHandler extends ScreenHandler {
         this.addSlot(new Slot(inventory, StoneMillBlockEntity.INPUT_SLOT, 20, 33));  // Input
         this.addSlot(new OutputSlot(inventory, StoneMillBlockEntity.OUTPUT_SLOT, 143, 33));  // Output
 
-        for (int i = 0; i < 3; ++i) {
-            for(int j = 0; j < 9; ++j) {
-                this.addSlot(new Slot(playerInventory, j + i * 9 + 9, 8 + j * 18, 84 + i * 18));
-            }
-        }
-
-        for (int i = 0; i < 9; ++i) {
-            this.addSlot(new Slot(playerInventory, i, 8 + i * 18, 142));
-        }
+        ScreenHandlerUtils.addPlayerInventorySlots(this, playerInventory);
     }
 
     // TODO: Output Slot should be taken only.

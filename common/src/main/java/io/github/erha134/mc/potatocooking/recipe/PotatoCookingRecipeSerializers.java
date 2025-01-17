@@ -4,6 +4,7 @@ import dev.architectury.registry.registries.DeferredRegister;
 import dev.architectury.registry.registries.RegistrySupplier;
 import io.github.erha134.mc.potatocooking.PotatoCooking;
 import io.github.erha134.mc.potatocooking.recipe.machine.StoneMillRecipe;
+import io.github.erha134.mc.sparklib.recipe.SingleIngredientRecipe;
 import net.minecraft.recipe.RecipeSerializer;
 import net.minecraft.registry.RegistryKeys;
 

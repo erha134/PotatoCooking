@@ -3,7 +3,7 @@ package io.github.erha134.mc.potatocooking.recipe.machine;
 import io.github.erha134.mc.potatocooking.item.PotatoCookingItems;
 import io.github.erha134.mc.potatocooking.recipe.PotatoCookingRecipeSerializers;
 import io.github.erha134.mc.potatocooking.recipe.PotatoCookingRecipeTypes;
-import io.github.erha134.mc.potatocooking.recipe.SingleIngredientRecipe;
+import io.github.erha134.mc.sparklib.recipe.SingleIngredientRecipe;
 import net.minecraft.item.ItemStack;
 import net.minecraft.recipe.Ingredient;
 import net.minecraft.util.Identifier;
